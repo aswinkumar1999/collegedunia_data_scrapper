@@ -1,4 +1,5 @@
 url = "https://collegedunia.com/chennai-colleges"
+state = "Tamil Nadu"
 no_of_pagedowns = 100
 
 from bs4 import BeautifulSoup
@@ -23,7 +24,7 @@ while no_of_pagedowns:
 df = pd.DataFrame(columns=['S No','College Name', 'Address','State','Contact No(s)','E-Mail ID','Weblink'])
 
 html = browser.page_source
-main_page_content = BeautifulSoup(html,features="lxml")
+main_page_content = BeautifulSoup(html)
 browser.close()
 Content = []
 for i in range(len(main_page_content.find_all("div", {"class": "clg-name-address"}))):
@@ -83,14 +84,14 @@ for i in range(len(main_page_content.find_all("div", {"class": "clg-name-address
                     if(val==0):
                         end = j
                         email = textContent[p][start+8:start+end]
-    print('.',end='')
+    print(name)
     list=[]
     list.append(i)
     list.append(name)
     list.append(address)
-    list.append('Tamil Nadu')
+    list.append(state)
     list.append(phone)
     list.append(email)
     list.append(weblink)
     df.loc[i+1]=list
-    df.to_csv(r'~/Desktop/colleges.csv',index=None)
+    df.to_csv(r'~/Desktop/colleges.csv',index=None,encoding='utf-8')
