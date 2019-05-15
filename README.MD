@@ -24,7 +24,7 @@ To Run this you need to open a terminal and
 `vim web_scrapper.py`
 
 
-###### If Chrome Isn't Installed , then 
+#### If Chrome Isn't Installed , then 
 
 `sudo apt-get install libxss1 libappindicator1 libindicator7
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -36,7 +36,7 @@ You Also Need to Install Chrome Drivers, Follow the steps below
 
 2. Go to `http://chromedriver.chromium.org/downloads` and Download the Version that you say above
 
-3.Extract the Downloaded file and In Linux , Open an Terminal and type `sudo nautilus` and press enter , when prompted enter your password , Now , Copy the extracted file to `/usr/bin/` and paste it , After Pasting , Right Click - > Properties - > Permission  and Check the box with "Allow Executing file as program" and make sure you see the check box ticked. You can close the tabs now.
+3.Extract the Downloaded file and In Linux , Open an Terminal and type `sudo nautilus` and press enter , when prompted enter your password , Now , Copy the extracted file to `/usr/bin/` and paste it , After Pasting , Right Click - > Properties - Permission  and Check the box with "Allow Executing file as program" and make sure you see the check box ticked. You can close the tabs now.
 
 Now , Open the web_scrapper.py in your favorite text editor.
 Here change the `url = '......' `  to the url which you need to Scrap the lists of Data from , For this step you need to go to `collegedunia.com` and apply the selected location and type of College Filters and paste the Link in this..... 
