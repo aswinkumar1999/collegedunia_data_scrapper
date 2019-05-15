@@ -53,4 +53,47 @@ This Will take some time to scrap , I tested it on an 100Mbit Fiber connection w
 
 # For Windows Users
 
-I haven't tested it in Windows yet , so I'll test This Part and this will be updated before May 15 Evening IST
+Install Anaconda based on your Computer Specs 
+
+https://www.anaconda.com/distribution/#download-section 
+
+Post Installation  
+
+Search and Open Anaconda Navigator 
+
+Once Anaconda Navigator is Opened , Click on Environments - > base (root) 
+
+In the Top Drop down Box , Change from Installed to All 
+
+Now Search for the following and make sure , it is checked for these names
+
+
+
+beautifulsoup4
+
+selenium
+
+requests
+
+pandas 
+
+If any of them is Unchecked , Check them and Click Apply in the bottom right corner. Now these packages will get Installed.
+After that you can close Anaconda Navigator 
+
+After Installation You need to Install Chrome Driver :
+
+Check your version of Google Chrome , Go to https://www.whatismybrowser.com/ , It would Say the Version of Chrome as "Your Browser is Chrome 7x " , x = 3,4,5
+
+Go to http://chromedriver.chromium.org/downloads and Download the Version that you saw above.
+
+and select Windows , Once it downloads extract the file "chromedriver.exe" to C:\Windows , ONLY THE FILE chromedriver.exe and not the Folder.
+
+Now Download the Folder from Github and extract it to the desired Location and to Run the Script 
+
+Press Shift+Right Click and Click on " Open Powershell Window here"  , Once the powershell Window opens , You need to enter 
+
+
+`python .\web_scrapper.py`
+
+
+and press Enter , It will create a File in Desktop with the Required Details 
