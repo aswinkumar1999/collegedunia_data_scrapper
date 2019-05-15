@@ -24,7 +24,7 @@ To Run this you need to open a terminal and
 `vim web_scrapper.py`
 
 
-## If Chrome Isn't Installed , then 
+###### If Chrome Isn't Installed , then 
 
 `sudo apt-get install libxss1 libappindicator1 libindicator7
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
