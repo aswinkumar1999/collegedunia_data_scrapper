@@ -21,8 +21,6 @@ To Run this you need to open a terminal and
 
 `cd collegedunia_data_scrapper`
 
-`vim web_scrapper.py`
-
 
 #### If Chrome Isn't Installed , then 
 
