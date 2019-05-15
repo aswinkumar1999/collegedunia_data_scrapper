@@ -23,6 +23,13 @@ To Run this you need to open a terminal and
 
 `vim web_scrapper.py`
 
+
+## If Chrome Isn't Installed , then 
+
+`sudo apt-get install libxss1 libappindicator1 libindicator7
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome*.deb`
+
 You Also Need to Install Chrome Drivers, Follow the steps below 
 
 1. Check your version of Google Chrome , Go to `https://www.whatismybrowser.com/` , It would Say the Version of Chrome as "Your Browser is Chrome 7x " , x = 3,4,5 
@@ -34,13 +41,13 @@ You Also Need to Install Chrome Drivers, Follow the steps below
 Now , Open the web_scrapper.py in your favorite text editor.
 Here change the `url = '......' `  to the url which you need to Scrap the lists of Data from , For this step you need to go to `collegedunia.com` and apply the selected location and type of College Filters and paste the Link in this..... 
 
-This Will take some time to scrap , I tested it on an 100Mbit Fiber connection with an Core i7 , so it took me ~10 minutes to get Details of 417 Colleges in Chennai ( Name , Address , Phone Number, Email ID and Weblink ) and put it in a CSV file.
-
 After you edit the URL you can run the command by entering 
 
 `python web_scrapper.py` to run the script.
 
 After the Script exists , you can see a file named as `colleges.csv` , This file now contains all the details you need.
+
+This Will take some time to scrap , I tested it on an 100Mbit Fiber connection with an Core i7 , so it took me ~10 minutes to get Details of 417 Colleges in Chennai ( Name , Address , Phone Number, Email ID and Weblink ) and put it in this [CSV file](https://github.com/aswinkumar1999/collegedunia_data_scrapper/blob/master/colleges_chennai.csv).
 
 # For Windows Users
 
