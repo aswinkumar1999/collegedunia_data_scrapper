@@ -26,9 +26,11 @@ To Run this you need to open a terminal and
 
 #### If Chrome Isn't Installed , then 
 
-`sudo apt-get install libxss1 libappindicator1 libindicator7
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome*.deb`
+`sudo apt-get install libxss1 libappindicator1 libindicator7`
+
+`wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
+
+`sudo apt install ./google-chrome*.deb`
 
 You Also Need to Install Chrome Drivers, Follow the steps below 
 
