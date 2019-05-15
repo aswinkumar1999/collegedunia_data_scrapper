@@ -2,6 +2,10 @@ This is an Python Script to Scrap Data from the Website `collegedunia.com` to cr
 
 This is An Script i wrote to Save Time  , So the Accuracy is not great and manual inspection is necessary after the script completes it's task.
 
+Here is a .csv scrapped for Chennai Colleges --> [Here](https://github.com/aswinkumar1999/collegedunia_data_scrapper/blob/master/colleges_chennai.csv)
+
+# For Linux Users 
+
 There are a list of dependencies to Install 
 
 First of All , This is Tested in Linux ( Ubuntu 18.10 ) and should work with other Linux distros as well. 
@@ -37,3 +41,7 @@ After you edit the URL you can run the command by entering
 `python web_scrapper.py` to run the script.
 
 After the Script exists , you can see a file named as `colleges.csv` , This file now contains all the details you need.
+
+# For Windows Users
+
+I haven't tested it in Windows yet , so I'll test This Part and this will be updated before May 15 Evening IST
