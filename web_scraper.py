@@ -8,7 +8,6 @@
 #..........................................................................................
 #url is a list which contains all the urls to get lists of colleges from
 urls = []
-urls.append("https://collegedunia.com/science/visakhapatnam-colleges")
 urls.append("https://collegedunia.com/education/visakhapatnam-colleges")
 #state has to be explicitly specified to print in the csv file
 state = "Andhra Pradesh"
@@ -50,7 +49,7 @@ for u in urls:  #iterates throught the list urls
     #Initiate a Pandas DataFrame with the Specific Columns
     df = pd.DataFrame(columns=['S No','College Name', 'Address','State','Contact No(s)','E-Mail ID','Weblink'])
     html = browser.page_source              # gets the page source once it's loaded
-    main_page_content = BeautifulSoup(html,features="lxml")     # extracts the features using bs4
+    main_page_content = BeautifulSoup(html)     # extracts the features using bs4
     browser.close()                         # closes the broswer ( important !!)
     Content = []                            #Initialize an empty list
     # Iterate throught the no of list of colleges
