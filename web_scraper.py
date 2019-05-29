@@ -150,4 +150,4 @@ for u in urls:  #iterates throught the list urls
         #it dumps it here
         df.loc[i+1]=list
         #pandas dumps it to the specified csv file from here.
-        df.to_csv(r'~/Desktop/'+save_name,index=None)
+        df.to_csv(r'~/Desktop/'+save_name,index=None,encoding='utf-8')
