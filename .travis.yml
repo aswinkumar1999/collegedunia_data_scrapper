@@ -1,20 +1,6 @@
 language: python
 python:
-  - "2.7"
-cache: pip
-install:
-  - pip install beautifulsoup4 requests selenium pandas
+  - "3.5"
 script:
-  - pwd
-  - sudo apt-get install libxss1 libappindicator1 libindicator7
-  - sudo apt-get install libxml2-dev libxslt-dev python-dev
-  - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-  - sudo apt install ./google-chrome*.deb
-  - cd ~
-  - wget https://chromedriver.storage.googleapis.com/74.0.3729.6/chromedriver_linux64.zip
-  - unzip chromedriver_linux64.zip
-  - sudo cp -f ~/chromedriver /usr/bin/
-  - sudo chmod +x /usr/bin/chromedriver
-  - cd /home/travis/build/aswinkumar1999/collegedunia_data_scrapper
   - mkdir /home/travis/Desktop/
   - python web_scraper.py
