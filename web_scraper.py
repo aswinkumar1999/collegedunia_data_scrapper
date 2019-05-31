@@ -33,7 +33,7 @@ if(int(ver)==73):
     subprocess.run(["sudo","cp","chromedriver","/usr/bin/"])
     subprocess.run(["sudo","chmod","+x","/usr/bin/chromedriver"])
 if(int(ver)==74):
-#    subprocess.run(["wget","https://chromedriver.storage.googleapis.com/74.0.3729.6/chromedriver_linux64.zip"])
+    subprocess.run(["wget","https://chromedriver.storage.googleapis.com/74.0.3729.6/chromedriver_linux64.zip"])
     subprocess.run(["unzip","chromedriver_linux64.zip"])
     subprocess.run(["sudo","cp","chromedriver","/usr/bin/"])
     subprocess.run(["sudo","chmod","+x","/usr/bin/chromedriver"])
