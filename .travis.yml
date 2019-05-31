@@ -3,4 +3,4 @@ python:
   - "3.5"
 script:
   - mkdir /home/travis/Desktop/
-  - python web_scraper.py
+  - python3 web_scraper.py

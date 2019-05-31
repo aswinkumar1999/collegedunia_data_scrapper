@@ -23,7 +23,7 @@ ver = version[14:16]
 if (int(ver)<73 or version.find("Google Chrome")==-1):
     subprocess.run(["sudo","apt-get","install","libxss1","libappindicator1","libindicator7","libxml2-dev","libxslt-dev","python-dev"])
     subprocess.run(["wget","https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"])
-    subprocess.run(["sudo","apt","install","./google-chrome*.deb"])
+    subprocess.run(["sudo","apt","install","./google-chrome-stable_current_amd64.deb"])
 version = subprocess.run(["google-chrome","--version"],universal_newlines=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 version = version.stdout
 ver = version[14:16]
