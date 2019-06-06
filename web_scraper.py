@@ -41,7 +41,7 @@ for u in urls:  #iterates throught the list urls
     browser = webdriver.Chrome(chrome_options=options)  # Starts a browser with that specified options
     browser.get(u)                              # opens the browser with the url from the iterator
     time.sleep(1)                               # waits for the page to load
-    elem = browser.find_element_by_tag_name("body")     # idk what this does
+    elem = browser.find_element_by_tag_name("body")     # gets the body tag from the html under which content is present
     while no_of_pagedowns:                      # scrolls the pages to the numeber of times
         elem.send_keys(Keys.PAGE_DOWN)          # pressed the down key
         time.sleep(0.4)                         # waits for the page to load
