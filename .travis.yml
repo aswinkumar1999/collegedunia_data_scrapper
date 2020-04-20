@@ -11,7 +11,7 @@ script:
   - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
   - sudo apt install ./google-chrome*.deb
   - cd ~
-  - wget https://chromedriver.storage.googleapis.com/74.0.3729.6/chromedriver_linux64.zip
+  - wget https://chromedriver.storage.googleapis.com/81.0.4044.69/chromedriver_linux64.zip
   - unzip chromedriver_linux64.zip
   - sudo cp -f ~/chromedriver /usr/bin/
   - sudo chmod +x /usr/bin/chromedriver
