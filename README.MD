@@ -14,23 +14,21 @@ First of All , This is Tested in Linux ( Ubuntu 18.10 ) and should work with oth
 
 To Run this you need to open a terminal and 
 
-`sudo apt-get update && sudo apt-get install git python-pip`
-
-`git clone https://github.com/aswinkumar1999/collegedunia_data_scrapper.git`
-
-
-`pip install beautifulsoup4 requests selenium pandas`
-
-`cd collegedunia_data_scrapper`
+```bash
+sudo apt-get update && sudo apt-get install git python-pip
+git clone https://github.com/aswinkumar1999/collegedunia_data_scrapper.git
+pip install beautifulsoup4 requests selenium pandas
+cd collegedunia_data_scrapper
+```
 
 
 #### If Chrome Isn't Installed , then 
 
-`sudo apt-get install libxss1 libappindicator1 libindicator7`
-
-`wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
-
-`sudo apt install ./google-chrome*.deb`
+```bash
+sudo apt-get install libxss1 libappindicator1 libindicator7
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome*.deb
+```
 
 You Also Need to Install Chrome Drivers, Follow the steps below 
 
@@ -45,7 +43,9 @@ Here change the `url = '......' `  to the url which you need to Scrap the lists 
 
 After you edit the URL you can run the command by entering 
 
-`python web_scrapper.py` to run the script.
+```
+python web_scrapper.py
+``` 
 
 After the Script exists , you can see a file named as `colleges.csv` , This file now contains all the details you need.
 
@@ -68,14 +68,12 @@ In the Top Drop down Box , Change from Installed to All
 Now Search for the following and make sure , it is checked for these names
 
 
-
+```
 beautifulsoup4
-
 selenium
-
 requests
-
 pandas 
+```
 
 If any of them is Unchecked , Check them and Click Apply in the bottom right corner. Now these packages will get Installed.
 After that you can close Anaconda Navigator 
