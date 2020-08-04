@@ -49,6 +49,4 @@ After the Script exists , you can see a file named as `colleges.csv` , This file
 
 This Will take some time to scrap , I tested it on an 100Mbit Fiber connection with an Core i7 , so it took me ~10 minutes to get Details of 417 Colleges in Chennai ( Name , Address , Phone Number, Email ID and Weblink ) and put it in this [CSV file](https://github.com/aswinkumar1999/collegedunia_data_scrapper/blob/master/colleges_chennai.csv).
 
-# For Windows Users
 
-Please Install Linux and Live a Happy Life !!
