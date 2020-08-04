@@ -1,5 +1,3 @@
-![Build Status](https://travis-ci.org/aswinkumar1999/collegedunia_data_scrapper.svg?branch=master)
-
 This is an Python Script to Scrap Data from the Website `collegedunia.com` to create College Databases.
 
 This is An Script i wrote to Save Time  , So the Accuracy is not great and manual inspection is necessary after the script completes it's task.
